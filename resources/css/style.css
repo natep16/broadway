@@ -8,9 +8,24 @@ a {
 }
 h1 {
   font-size: 70px;
+}
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 14px;
+}
+h1, h2, h3 {
   font-weight: bold;
 }
-#header {
+.footer {
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+}
+.header {
   background-image: url('../images/background.png');
+}
+.footer,.header {
   color: white;
 }
